@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -46,6 +47,15 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        rail: {
+          track: "hsl(var(--rail-track))",
+          signal: {
+            green: "hsl(var(--rail-signal-green))",
+            red: "hsl(var(--rail-signal-red))",
+            yellow: "hsl(var(--rail-signal-yellow))",
+          },
+          steel: "hsl(var(--rail-steel))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
